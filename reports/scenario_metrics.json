@@ -1,0 +1,47 @@
+{
+  "primary_timeout_100": {
+    "total_requests": 100,
+    "availability": 0.95,
+    "error_rate": 0.05,
+    "latency_p50_ms": 0.76,
+    "latency_p95_ms": 483.74,
+    "latency_p99_ms": 515.18,
+    "fallback_success_rate": 0.875,
+    "cache_hit_rate": 0.6,
+    "circuit_open_count": 6,
+    "recovery_time_ms": null,
+    "estimated_cost": 0.013122,
+    "estimated_cost_saved": 0.06,
+    "scenarios": {}
+  },
+  "primary_flaky_50": {
+    "total_requests": 100,
+    "availability": 0.99,
+    "error_rate": 0.01,
+    "latency_p50_ms": 0.96,
+    "latency_p95_ms": 504.83,
+    "latency_p99_ms": 534.65,
+    "fallback_success_rate": 0.9688,
+    "cache_hit_rate": 0.6,
+    "circuit_open_count": 4,
+    "recovery_time_ms": 2242.2211170196533,
+    "estimated_cost": 0.01479,
+    "estimated_cost_saved": 0.06,
+    "scenarios": {}
+  },
+  "all_healthy": {
+    "total_requests": 100,
+    "availability": 0.99,
+    "error_rate": 0.01,
+    "latency_p50_ms": 0.81,
+    "latency_p95_ms": 468.69,
+    "latency_p99_ms": 503.0,
+    "fallback_success_rate": 0.875,
+    "cache_hit_rate": 0.67,
+    "circuit_open_count": 0,
+    "recovery_time_ms": null,
+    "estimated_cost": 0.018676,
+    "estimated_cost_saved": 0.067,
+    "scenarios": {}
+  }
+}
